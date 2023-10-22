@@ -1,0 +1,117 @@
+.Sim
+{
+    margin: 20px 20px 150px 20px;
+    
+}
+
+.hometitle13
+{
+    margin-top: 5px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-family: 'Black Ops One', cursive;
+    font-style: italic;
+    transition: 0.3s ease-in-out;
+}
+.hometitle13:hover
+{
+    color: snow;
+}
+
+/* card */
+
+.homecard2
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.cardh1
+{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 20px #562B7C; */
+    border: 5px solid #562B7C;
+
+    color: #FF3CAC;
+}
+
+
+
+.gamebtn 
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+
+    background: linear-gradient(to right, snow 50%, #FF3FA4  50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: 'Fugaz One', cursive;
+    color: #FBFFB1;
+
+    transition: background-position 0.5s ease-in-out;
+
+    cursor: pointer;
+}
+.gamebtn:hover 
+{
+    background-position: left bottom;
+    color: black;
+}
+
+.cardcontent
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: 'Alkatra', cursive; 
+    color: dodgerblue;
+}
+.new
+{
+    color: honeydew;
+    letter-spacing: 1px;
+    font-family: 'Rammetto One', cursive;
+    animation: new 0.9s infinite;
+}
+@keyframes new 
+{
+   0%, 100%{ transform: translateY(0px);}
+   50%{transform: translateY(10px)}    
+}
+
+
+.imgsize21
+{
+    width: 250px;
+    padding: 30px 20px 20px 20px;
+}
+.imgsize22
+{
+    width: 150px;
+    padding: 20px 20px 20px 80px;
+}
+.imgsize23
+{
+    width: 150px;
+    padding: 20px 20px 20px 80px;
+}
+.imgsize24
+{
+    width: 200px;
+    padding: 20px 20px 60px 50px;
+}

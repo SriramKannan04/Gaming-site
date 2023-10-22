@@ -1,0 +1,29 @@
+.Contact
+{
+    bottom: 0;
+    position: absolute;
+
+    
+}
+.support
+{
+    background-color: black;
+    width: 400%;
+    height: 50px;
+    border: 2px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first
+{
+    letter-spacing: 1px;
+    font-family: 'Alkatra', cursive; 
+}
+.last
+{
+    letter-spacing: 1px;
+    font-family: 'Alkatra', cursive; 
+    padding-right: -20px;
+}

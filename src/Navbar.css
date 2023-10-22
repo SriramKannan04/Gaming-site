@@ -1,0 +1,77 @@
+.navbar
+{
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    border: 2px solid blueviolet;
+    box-shadow: 2px 2px 5px blueviolet;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: 0.5s ease-in-out;
+}
+.navbar:hover
+{
+    background-color:  black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.navbar ul
+{
+    display: flex;
+}
+
+ul li
+{
+    padding: 0px 20px;
+    list-style: none;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.logoSize
+{
+    width: 100px;
+}
+.logoSize1
+{
+    margin-top: 5px;
+    width: 120px;
+}
+
+
+.Navcon 
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Aladin', cursive;
+    position: relative; 
+
+    transition: color 0.3s ease-in-out;
+}
+.Navcon::after 
+{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 3px;
+    border-radius: 50px;
+    background-color: #FF8C00; /* You can change the color as needed */
+    bottom: -17px;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    left: 0;
+}
+.Navcon:hover 
+{
+    text-decoration: none;
+    color: #FF8C00;
+}
+.Navcon:hover::after 
+{
+    width: 100%;
+    left: 0;
+}
